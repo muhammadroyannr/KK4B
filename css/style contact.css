@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/back.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+ul li.active a{
+	background-color: white;
+	color:black;
+
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.contact{
+	position: absolute;
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	background: #fff;
+	padding: 40px;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,.1);
+	box-shadow: 0 5px 10px rgba(0,0,0.2)
+}
+
+.contact h2{
+	margin: 0 40px;
+	padding: 15px;
+	color: #0092e6;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+.contact .border{
+	width: 70px;
+	height: 3px;
+	background: #00b8e6;
+	margin: 1px auto;
+}
+
+.contact input{
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+
+.contact textarea{
+	height: 80px;
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+
+.contact input,
+.contact textarea{
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #999;
+}
+
+.contact textarea{
+	margin-bottom: 20px;
+}
+
+.contact input[type="submit"]{
+	border-bottom: none;
+	cursor: pointer;
+	background: #0092e6;
+	color: #fff;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.contact form div{
+	position: relative;
+}
+
+.contact input[type="submit"]:hover{
+	background: #00b8e6
+}
+
+footer{
+	padding: 30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
